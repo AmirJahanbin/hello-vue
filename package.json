@@ -39,5 +39,13 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
   ]
 }
